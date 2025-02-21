@@ -7,7 +7,7 @@ const Bfhl = () => {
   const [selectedFilters, setSelectedFilters] = useState([]);
   const [error, setError] = useState(null);
 
-  const BACKEND_API = "https://backend-bajaj-phi.vercel.app";
+  const BACKEND_API = "https://backend-bajaj-lovat.vercel.app";
 
   const handleSubmit = async () => {
     try {
